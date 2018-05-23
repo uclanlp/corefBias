@@ -1,6 +1,6 @@
 # Site settings
 title1: "WinoBias "
-title2: "Project for Bias"
+title2: "Wino-grad schema dataset for detecting gender bias in coreference resolution systems."
 email:  jyzhao@cs.ucla.edu
 #description: "Seminar: Current Topics in Artificial Intelligence: Machine Learning in Natural Language Processing"
 baseurl: "/corefBias"
