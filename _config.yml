@@ -1,0 +1,14 @@
+# Site settings
+title1: "WinoBias "
+# title2: "Project for Bias"
+email:  jyzhao@cs.ucla.edu
+#description: "Seminar: Current Topics in Artificial Intelligence: Machine Learning in Natural Language Processing"
+baseurl: "/overview"
+url: "http://uclanlp.github.io/winobias"
+#twitter_username: jekyllrb
+#github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
