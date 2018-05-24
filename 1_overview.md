@@ -16,17 +16,16 @@ We analyze different resolution systems to understand the gender bias issues lyi
 
 WinoBias contains 3,160 sentences, split equally for development and test, created by researchers familiar with the project. Sentences were created to follow two prototypical templates but annotators were encouraged to come up with scenarios where entities could be interacting in plausible ways. Templates were selected to be challenging and designed to cover cases requiring semantics and syntax separately. 
 
-<!-- ![wino](/images/coref_bias.jpg) -->
-<img align="center"  src="images/coref_bias.jpg" width="490" height="420">
-
-*Figure 1: Pairs of gender balanced co-reference tests in the WinoBias dataset. Male and female entities are marked in blue and orange, respectively. For each example, the gender of the pronominal reference is irrelevant for the co-reference decision. Systems must be able to make correct linking predictions in pro-stereotypical scenarios (solid purple lines) and anti-stereotypical scenarios (dashed purple lines) equally well to pass the test. Importantly, stereotypical occupations are considered based on US Department of Labor statistics.*
-
 **Type 1: [entity1] [interacts with] [entity2] [conjunction] [pronoun] [circumstances].**
 Prototypical WinoCoRef style sentences, where co-reference decisions must be made using world knowledge about given circumstances (Figure 1; Type 1). Such examples are challenging because they contain no syntactic cues.
 
 **Type 2: [entity1] [interacts with] [entity2] and then [interacts with] [pronoun] for [circumstances].**
 These tests can be resolved using syntactic information and understanding of the pronoun (Figure 1; Type 2). We expect systems to do well on such cases because both semantic and syntactic cues help disambiguation.
 
+<!-- ![wino](/images/coref_bias.jpg) -->
+<img align="center"  src="images/coref_bias.jpg" width="490" height="420">
+
+*Figure 1: Pairs of gender balanced co-reference tests in the WinoBias dataset. Male and female entities are marked in blue and orange, respectively. For each example, the gender of the pronominal reference is irrelevant for the co-reference decision. Systems must be able to make correct linking predictions in pro-stereotypical scenarios (solid purple lines) and anti-stereotypical scenarios (dashed purple lines) equally well to pass the test. Importantly, stereotypical occupations are considered based on US Department of Labor statistics.*
 
 We use the professions from the [Labor Force Statistics](https://www.bls.gov/cps/cpsaat11.htm) which show gender stereotypes:
 <table>
@@ -43,136 +42,133 @@ We use the professions from the [Labor Force Statistics](https://www.bls.gov/cps
         <td>attendant</td>
         <td>76</td>
     </tr>
-       <tr>
+    <tr>
         <td>supervisor</td>
         <td>44</td>
         <td>cashier</td>
         <td>73</td>
     </tr>
-       <tr>
+    <tr>
         <td>janitor</td>
         <td>34</td>
         <td>teacher</td>
         <td>78</td>
     </tr>
-       <tr>
+    <tr>
         <td>cook</td>
         <td>38</td>
         <td>nurse</td>
         <td>90</td>
     </tr>
-       <tr>
+    <tr>
         <td>mover</td>
         <td>18</td>
         <td>assistant</td>
         <td>85</td>
     </tr>
-       <tr>
+    <tr>
         <td>laborer</td>
         <td>3.5</td>
         <td>secretary</td>
         <td>95</td>
     </tr>
-       <tr>
+    <tr>
         <td>constructor</td>
         <td>3.5</td>
         <td>auditor</td>
         <td>61</td>
     </tr>
-       <tr>
+    <tr>
         <td>chief</td>
         <td>27</td>
         <td>cleaner</td>
         <td>89</td>
     </tr>
-       <tr>
+    <tr>
         <td>developer</td>
         <td>20</td>
         <td>receptionist</td>
         <td>90</td>
     </tr>
-       <tr>
+    <tr>
         <td>carpenter</td>
         <td>2.1</td>
         <td>clerk</td>
         <td>72</td>
     </tr>
-       <tr>
+    <tr>
         <td>manager</td>
         <td>43</td>
         <td>counselors</td>
         <td>73</td>
     </tr>
-       <tr>
+    <tr>
         <td>driver</td>
         <td>6</td>
         <td>attendant</td>
         <td>76</td>
     </tr>
-       <tr>
+    <tr>
         <td>lawyer</td>
         <td>35</td>
         <td>designer</td>
         <td>54</td>
     </tr>
-       <tr>
+    <tr>
         <td>farmer</td>
         <td>22</td>
         <td>hairdressers</td>
         <td>92</td>
     </tr>
-       <tr>
+    <tr>
         <td>driver</td>
         <td>6</td>
         <td>attendant</td>
         <td>76</td>
     </tr>
-       <tr>
+    <tr>
         <td>driver</td>
         <td>6</td>
         <td>attendant</td>
         <td>76</td>
     </tr>
-       <tr>
+    <tr>
         <td>salesperson</td>
         <td>48</td>
         <td>writer</td>
         <td>63</td>
     </tr>
-       <tr>
+    <tr>
         <td>physician</td>
         <td>38</td>
         <td>housekeeper</td>
         <td>89</td>
     </tr>
-       <tr>
+    <tr>
         <td>guard</td>
         <td>22</td>
         <td>baker</td>
         <td>65</td>
     </tr>
-       <tr>
+    <tr>
         <td>analyst</td>
         <td>41</td>
         <td>accountant</td>
         <td>61</td>
     </tr>
-    </tr>
-       <tr>
+    <tr>
         <td>mechanician</td>
         <td>4</td>
         <td>editor</td>
         <td>52</td>
     </tr>
-    </tr>
-       <tr>
+    <tr>
         <td>sheriff</td>
         <td>14</td>
         <td>librarian</td>
         <td>84</td>
     </tr>
-    </tr>
-       <tr>
+    <tr>
         <td>CEO</td>
         <td>39</td>
         <td>sewer</td>
