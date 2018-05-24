@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "<span style="color:#A9A9A9;  font-size:10pt"><a href="https://arxiv.org/abs/1804.06876">[Gender Bias in Coreference Resolution:Evaluation and Debiasing Methods]</a></span>"
+title: "<span style="color:#A9A9A9;  font-size:10pt"><a href="https://arxiv.org/abs/1804.06876">Gender Bias in Coreference Resolution:Evaluation and Debiasing Methods</a></span>"
 permalink: /overview
 name: 1
 ---
