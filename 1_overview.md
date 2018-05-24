@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ""
+# title: "WinoBias "
 permalink: /overview
 name: 1
 ---
@@ -17,9 +17,11 @@ We analyze different resolution systems to understand the gender bias issues lyi
 WinoBias contains 3,160 sentences, split equally for development and test, created by researchers familiar with the project. Sentences were created to follow two prototypical templates but annotators were encouraged to come up with scenarios where entities could be interacting in plausible ways. Templates were selected to be challenging and designed to cover cases requiring semantics and syntax separately. 
 
 **Type 1: [entity1] [interacts with] [entity2] [conjunction] [pronoun] [circumstances].**
+
 Prototypical WinoCoRef style sentences, where co-reference decisions must be made using world knowledge about given circumstances (Figure 1; Type 1). Such examples are challenging because they contain no syntactic cues.
 
 **Type 2: [entity1] [interacts with] [entity2] and then [interacts with] [pronoun] for [circumstances].**
+
 These tests can be resolved using syntactic information and understanding of the pronoun (Figure 1; Type 2). We expect systems to do well on such cases because both semantic and syntactic cues help disambiguation.
 
 <!-- ![wino](/images/coref_bias.jpg) -->
