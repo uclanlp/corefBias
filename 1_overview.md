@@ -16,7 +16,9 @@ We analyze different resolution systems to understand the gender bias issues lyi
 
 WinoBias contains 3,160 sentences, split equally for development and test, created by researchers familiar with the project. Sentences were created to follow two prototypical templates but annotators were encouraged to come up with scenarios where entities could be interacting in plausible ways. Templates were selected to be challenging and designed to cover cases requiring semantics and syntax separately. 
 
-![wino](/images/coref_bias.jpg)
+<!-- ![wino](/images/coref_bias.jpg) -->
+<img src="/images/coref_bias.jpg" width="490" height="420">
+
 *Figure 1: Pairs of gender balanced co-reference tests in the WinoBias dataset. Male and female entities are marked in blue and orange, respectively. For each example, the gender of the pronominal reference is irrelevant for the co-reference decision. Systems must be able to make correct linking predictions in pro-stereotypical scenarios (solid purple lines) and anti-stereotypical scenarios (dashed purple lines) equally well to pass the test. Importantly, stereotypical occupations are considered based on US Department of Labor statistics.*
 
 **Type 1: [entity1] [interacts with] [entity2] [conjunction] [pronoun] [circumstances].**
