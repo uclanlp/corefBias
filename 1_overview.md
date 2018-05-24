@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "WinoBias"
+title: ""
 permalink: /overview
 name: 1
 ---
