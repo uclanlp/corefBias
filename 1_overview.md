@@ -6,7 +6,7 @@ name: 1
 ---
 
 
-##[Gender Bias in Coreference Resolution:Evaluation and Debiasing Methods](https://arxiv.org/abs/1804.06876)##
+## [Gender Bias in Coreference Resolution:Evaluation and Debiasing Methods](https://arxiv.org/abs/1804.06876) ##
 
 [Jieyu Zhao](http://jyzhao.net/), [Tianlu Wang](http://www.cs.virginia.edu/~tw8cb/), 
 [Mark Yatskar](https://homes.cs.washington.edu/~my89/), [Vicente Ordonez](http://www.cs.virginia.edu/~vicente/), 
