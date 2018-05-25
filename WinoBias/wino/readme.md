@@ -1,8 +1,9 @@
 ---
 layout: page
 title: "Data"
-permalink: /overview
+permalink: /WinoBias/wino
 name: 1
 ---
 1. The data/ folder contains the WinoDataset we generated.
 2. Gender swapping lists are listed in extra_gendered_words.txt and generalized_swaps.txt files. The swapping can be finished by the word_swapper.py file.
+s
