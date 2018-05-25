@@ -10,7 +10,7 @@ name: 1
 
 [Jieyu Zhao](http://jyzhao.net/), [Tianlu Wang](http://www.cs.virginia.edu/~tw8cb/), 
 [Mark Yatskar](https://homes.cs.washington.edu/~my89/), [Vicente Ordonez](http://www.cs.virginia.edu/~vicente/), 
-[Kai-Wei Chang](http://www.cs.virginia.edu/~kc2wc/). NAACL-2018 short paper.
+[Kai-Wei Chang](http://www.cs.virginia.edu/~kc2wc/). NAACL-2018. 
 
 We analyze different resolution systems to understand the gender bias issues lying in such systems. Providing the same sentence to the system but only changing the gender of the pronoun in the sentence, the performance of the systems varies. To demonstrate the gender bias issue, we created a [WinoBias](WinoBias/wino/data/) dataset. 
 
