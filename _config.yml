@@ -1,6 +1,6 @@
 # Site settings
 title1: "WinoBias "
-title2: "Wino-grad schema dataset for detecting gender bias"
+title2: "Winograd-schema dataset for detecting gender bias"
 url1: "http://uclanlp.github.io/corefBias"
 url2: "http://uclanlp.github.io/corefBias"
 email:  jyzhao@cs.ucla.edu
