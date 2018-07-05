@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="">
+    <link rel="canonical" href="http://localhost:4000/corefBias/overview">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/corefBias/css/main.css">
+
+</head>
+
+
+    <body>
+
+    <header class="site-header">
+
+  <div class="wrap">
+    <a class="site-title" href="/"><font color='#205caa'> WinoBias   </font> </a> 
+    <a class="site-title" href="/"> Wino-grad schema dataset for detecting gender bias </a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="0 0 18 15" enable-background="new 0 0 18 15" xml:space="preserve">
+          <path fill="#505050" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0
+            h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#505050" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484
+            h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#505050" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0
+            c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+      <div class="trigger">
+	  
+	  
+          <a class="page-link" href="/corefBias/overview"></a>
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrap">
+      <div class="post">
+
+  <header class="post-header">
+    <h1></h1>
+  </header>
+
+  <article class="post-content">
+  <h3 id="gender-bias-in-coreference-resolutionevaluation-and-debiasing-methods"><a href="https://arxiv.org/abs/1804.06876">Gender Bias in Coreference Resolution:Evaluation and Debiasing Methods</a></h3>
+
+<p><a href="http://jyzhao.net/">Jieyu Zhao</a>, <a href="http://www.cs.virginia.edu/~tw8cb/">Tianlu Wang</a>, 
+<a href="https://homes.cs.washington.edu/~my89/">Mark Yatskar</a>, <a href="http://www.cs.virginia.edu/~vicente/">Vicente Ordonez</a>, 
+<a href="http://www.cs.virginia.edu/~kc2wc/">Kai-Wei Chang</a>. NAACL-2018 short paper.</p>
+
+<p>We analyze different resolution systems to understand the gender bias issues lying in such systems. Providing the same sentence to the system but only changing the gender of the pronoun in the sentence, the performance of the systems varies. To demonstrate the gender bias issue, we created a <a href="WinoBias/wino/data/">WinoBias</a> dataset.</p>
+
+<p>WinoBias contains 3,160 sentences, split equally for development and test, created by researchers familiar with the project. Sentences were created to follow two prototypical templates but annotators were encouraged to come up with scenarios where entities could be interacting in plausible ways. Templates were selected to be challenging and designed to cover cases requiring semantics and syntax separately.</p>
+
+<p><img src="images/coref_bias.jpg" alt="wino" />
+<em>Figure 1: Pairs of gender balanced co-reference tests in the WinoBias dataset. Male and female entities are marked in blue and orange, respectively. For each example, the gender of the pronominal reference is irrelevant for the co-reference decision. Systems must be able to make correct linking predictions in pro-stereotypical scenarios (solid purple lines) and anti-stereotypical scenarios (dashed purple lines) equally well to pass the test. Importantly, stereotypical occupations are considered based on US Department of Labor statistics.</em></p>
+
+<p><strong>Type 1: [entity1] [interacts with] [entity2] [conjunction] [pronoun] [circumstances].</strong>
+Prototypical WinoCoRef style sentences, where co-reference decisions must be made using world knowledge about given circumstances (Figure 1; Type 1). Such examples are challenging because they contain no syntactic cues.</p>
+
+<p><strong>Type 2: [entity1] [interacts with] [entity2] and then [interacts with] [pronoun] for [circumstances].</strong>
+These tests can be resolved using syntactic information and understanding of the pronoun (Figure 1; Type 2). We expect systems to do well on such cases because both semantic and syntactic cues help disambiguation.</p>
+
+<p>We use the professions from the <a href="https://www.bls.gov/cps/cpsaat11.htm">Labor Force Statistics</a> which show gender stereotypes:</p>
+<table>
+    <tr>
+        <th colspan="4">Professions and their percentages of women</th>
+    </tr>
+    <tr>
+        <th colspan="2">Male biased</th>
+        <th colspan="2">Female biased</th>
+    </tr>
+    <tr>
+        <td>driver</td>
+        <td>6</td>
+        <td>attendant</td>
+        <td>76</td>
+    </tr>
+       <tr>
+        <td>supervisor</td>
+        <td>44</td>
+        <td>cashier</td>
+        <td>73</td>
+    </tr>
+       <tr>
+        <td>janitor</td>
+        <td>34</td>
+        <td>teacher</td>
+        <td>78</td>
+    </tr>
+       <tr>
+        <td>cook</td>
+        <td>38</td>
+        <td>nurse</td>
+        <td>90</td>
+    </tr>
+       <tr>
+        <td>mover</td>
+        <td>18</td>
+        <td>assistant</td>
+        <td>85</td>
+    </tr>
+       <tr>
+        <td>laborer</td>
+        <td>3.5</td>
+        <td>secretary</td>
+        <td>95</td>
+    </tr>
+       <tr>
+        <td>constructor</td>
+        <td>3.5</td>
+        <td>auditor</td>
+        <td>61</td>
+    </tr>
+       <tr>
+        <td>chief</td>
+        <td>27</td>
+        <td>cleaner</td>
+        <td>89</td>
+    </tr>
+       <tr>
+        <td>developer</td>
+        <td>20</td>
+        <td>receptionist</td>
+        <td>90</td>
+    </tr>
+       <tr>
+        <td>carpenter</td>
+        <td>2.1</td>
+        <td>clerk</td>
+        <td>72</td>
+    </tr>
+       <tr>
+        <td>manager</td>
+        <td>43</td>
+        <td>counselors</td>
+        <td>73</td>
+    </tr>
+       <tr>
+        <td>driver</td>
+        <td>6</td>
+        <td>attendant</td>
+        <td>76</td>
+    </tr>
+       <tr>
+        <td>lawyer</td>
+        <td>35</td>
+        <td>designer</td>
+        <td>54</td>
+    </tr>
+       <tr>
+        <td>farmer</td>
+        <td>22</td>
+        <td>hairdressers</td>
+        <td>92</td>
+    </tr>
+       <tr>
+        <td>driver</td>
+        <td>6</td>
+        <td>attendant</td>
+        <td>76</td>
+    </tr>
+       <tr>
+        <td>driver</td>
+        <td>6</td>
+        <td>attendant</td>
+        <td>76</td>
+    </tr>
+       <tr>
+        <td>salesperson</td>
+        <td>48</td>
+        <td>writer</td>
+        <td>63</td>
+    </tr>
+       <tr>
+        <td>physician</td>
+        <td>38</td>
+        <td>housekeeper</td>
+        <td>89</td>
+    </tr>
+       <tr>
+        <td>guard</td>
+        <td>22</td>
+        <td>baker</td>
+        <td>65</td>
+    </tr>
+       <tr>
+        <td>analyst</td>
+        <td>41</td>
+        <td>accountant</td>
+        <td>61</td>
+    </tr>
+    &lt;/tr&gt;
+       <tr>
+        <td>mechanician</td>
+        <td>4</td>
+        <td>editor</td>
+        <td>52</td>
+    </tr>
+    &lt;/tr&gt;
+       <tr>
+        <td>sheriff</td>
+        <td>14</td>
+        <td>librarian</td>
+        <td>84</td>
+    </tr>
+    &lt;/tr&gt;
+       <tr>
+        <td>CEO</td>
+        <td>39</td>
+        <td>sewer</td>
+        <td>80</td>
+    </tr>
+</table>
+<p>(Note: to reduce the ambigous of words, we made some modification of these professions: mechanician –&gt; mechanic, sewer –&gt; tailor, constructor –&gt; construction worker, counselors –&gt; counselor, designers –&gt; designer, hairdressers –&gt; hairdresser)</p>
+
+
+  </article>
+
+</div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrap">
+
+    <h2 class="footer-heading"></h2>
+
+    <div class="footer-col-1 column">
+      <ul>		  
+        <li> For any questions regarding the workshop please email to
+		<a href="mailto:jyzhao@cs.ucla.edu">jyzhao@cs.ucla.edu</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col-2 column">
+      <ul>
+        
+        
+      </ul>
+    </div>
+
+<!--    <div class="footer-col-3 column">
+      <p class="text"></p>
+	</div>-->
+
+  </div>
+
+</footer>
+
+
+    </body>
+</html>

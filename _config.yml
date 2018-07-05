@@ -1,0 +1,16 @@
+# Site settings
+title1: "WinoBias "
+title2: "Winograd-schema dataset for detecting gender bias"
+url1: "http://uclanlp.github.io/corefBias"
+url2: "http://uclanlp.github.io/corefBias"
+email:  jyzhao@cs.ucla.edu
+#description: "Seminar: Current Topics in Artificial Intelligence: Machine Learning in Natural Language Processing"
+baseurl: "/corefBias"
+url: "http://uclanlp.github.io/corefBias"
+#twitter_username: jekyllrb
+#github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
