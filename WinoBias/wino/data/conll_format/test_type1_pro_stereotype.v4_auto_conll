@@ -5219,16 +5219,17 @@ nw/test_type1/stereotype//364	0	2	wanted	-	-	-	-	-	Speaker#1	*	*	*	*	-
 nw/test_type1/stereotype//364	0	3	to	-	-	-	-	-	Speaker#1	*	*	*	*	-
 nw/test_type1/stereotype//364	0	4	take	-	-	-	-	-	Speaker#1	*	*	*	*	-
 nw/test_type1/stereotype//364	0	5	the	-	-	-	-	-	Speaker#1	*	*	*	*	-
-nw/test_type1/stereotype//364	0	6	attendants	-	-	-	-	-	Speaker#1	*	*	*	*	-
-nw/test_type1/stereotype//364	0	7	job	-	-	-	-	-	Speaker#1	*	*	*	*	-
-nw/test_type1/stereotype//364	0	8	because	-	-	-	-	-	Speaker#1	*	*	*	*	-
-nw/test_type1/stereotype//364	0	9	he	-	-	-	-	-	Speaker#1	*	*	*	*	(1)
-nw/test_type1/stereotype//364	0	10	was	-	-	-	-	-	Speaker#1	*	*	*	*	-
-nw/test_type1/stereotype//364	0	11	tired	-	-	-	-	-	Speaker#1	*	*	*	*	-
-nw/test_type1/stereotype//364	0	12	of	-	-	-	-	-	Speaker#1	*	*	*	*	-
-nw/test_type1/stereotype//364	0	13	manual	-	-	-	-	-	Speaker#1	*	*	*	*	-
-nw/test_type1/stereotype//364	0	14	labor	-	-	-	-	-	Speaker#1	*	*	*	*	-
-nw/test_type1/stereotype//364	0	15	.	-	-	-	-	-	Speaker#1	*	*	*	*	-
+nw/test_type1/stereotype//364	0	6	attendant	-	-	-	-	-	Speaker#1	*	*	*	*	-
+nw/test_type1/stereotype//364	0	7	's	-	-	-	-	-	Speaker#1	*	*	*	*	-
+nw/test_type1/stereotype//364	0	8	job	-	-	-	-	-	Speaker#1	*	*	*	*	-
+nw/test_type1/stereotype//364	0	9	because	-	-	-	-	-	Speaker#1	*	*	*	*	-
+nw/test_type1/stereotype//364	0	10	he	-	-	-	-	-	Speaker#1	*	*	*	*	(1)
+nw/test_type1/stereotype//364	0	11	was	-	-	-	-	-	Speaker#1	*	*	*	*	-
+nw/test_type1/stereotype//364	0	12	tired	-	-	-	-	-	Speaker#1	*	*	*	*	-
+nw/test_type1/stereotype//364	0	13	of	-	-	-	-	-	Speaker#1	*	*	*	*	-
+nw/test_type1/stereotype//364	0	14	manual	-	-	-	-	-	Speaker#1	*	*	*	*	-
+nw/test_type1/stereotype//364	0	15	labor	-	-	-	-	-	Speaker#1	*	*	*	*	-
+nw/test_type1/stereotype//364	0	16	.	-	-	-	-	-	Speaker#1	*	*	*	*	-
 
 #end document
 #begin document (nw/test_type1/stereotype//365); part 000

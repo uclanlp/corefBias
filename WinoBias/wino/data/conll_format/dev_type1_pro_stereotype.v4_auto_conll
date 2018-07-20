@@ -5497,8 +5497,8 @@ nw/dev_type1/stereotype//390	0	12	.	-	-	-	-	-	Speaker#1	*	*	*	*	-
 nw/dev_type1/stereotype//391	0	0	The	-	-	-	-	-	Speaker#1	*	*	*	*	-
 nw/dev_type1/stereotype//391	0	1	salesperson	-	-	-	-	-	Speaker#1	*	*	*	*	-
 nw/dev_type1/stereotype//391	0	2	contacted	-	-	-	-	-	Speaker#1	*	*	*	*	-
-nw/dev_type1/stereotype//391	0	3	the	-	-	-	-	-	Speaker#1	*	*	*	*	-
-nw/dev_type1/stereotype//391	0	4	tailor	-	-	-	-	-	Speaker#1	*	*	*	*	-
+nw/dev_type1/stereotype//391	0	3	the	-	-	-	-	-	Speaker#1	*	*	*	*	(1
+nw/dev_type1/stereotype//391	0	4	tailor	-	-	-	-	-	Speaker#1	*	*	*	*	1)
 nw/dev_type1/stereotype//391	0	5	because	-	-	-	-	-	Speaker#1	*	*	*	*	-
 nw/dev_type1/stereotype//391	0	6	she	-	-	-	-	-	Speaker#1	*	*	*	*	(1)
 nw/dev_type1/stereotype//391	0	7	promised	-	-	-	-	-	Speaker#1	*	*	*	*	-
