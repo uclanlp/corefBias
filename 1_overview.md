@@ -178,6 +178,7 @@ We use the professions from the [Labor Force Statistics](https://www.bls.gov/cps
     </tr>
 </table>
 (Note: to reduce the ambigous of words, we made some modification of these professions: mechanician --> mechanic, sewer --> tailor, constructor --> construction worker, counselors --> counselor, designers --> designer, hairdressers --> hairdresser)
+The anonymized.augmented.training data can be accessed (here)[https://drive.google.com/a/g.ucla.edu/file/d/14Im3BnNl-d2fYETYmiH5yq6eFGLVC3g0/view?usp=sharing].
 
 
 
