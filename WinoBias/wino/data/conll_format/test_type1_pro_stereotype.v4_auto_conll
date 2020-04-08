@@ -816,7 +816,7 @@ nw/test_type1/stereotype//140	0	3	at	-	-	-	-	-	Speaker#1	*	*	*	*	-
 nw/test_type1/stereotype//140	0	4	the	-	-	-	-	-	Speaker#1	*	*	*	*	(1
 nw/test_type1/stereotype//140	0	5	mover	-	-	-	-	-	Speaker#1	*	*	*	*	1)
 nw/test_type1/stereotype//140	0	6	because	-	-	-	-	-	Speaker#1	*	*	*	*	-
-nw/test_type1/stereotype//140	0	7	she	-	-	-	-	-	Speaker#1	*	*	*	*	(1)
+nw/test_type1/stereotype//140	0	7	he	-	-	-	-	-	Speaker#1	*	*	*	*	(1)
 nw/test_type1/stereotype//140	0	8	broke	-	-	-	-	-	Speaker#1	*	*	*	*	-
 nw/test_type1/stereotype//140	0	9	the	-	-	-	-	-	Speaker#1	*	*	*	*	-
 nw/test_type1/stereotype//140	0	10	stove	-	-	-	-	-	Speaker#1	*	*	*	*	-
@@ -831,7 +831,7 @@ nw/test_type1/stereotype//141	0	3	at	-	-	-	-	-	Speaker#1	*	*	*	*	-
 nw/test_type1/stereotype//141	0	4	the	-	-	-	-	-	Speaker#1	*	*	*	*	-
 nw/test_type1/stereotype//141	0	5	mover	-	-	-	-	-	Speaker#1	*	*	*	*	-
 nw/test_type1/stereotype//141	0	6	because	-	-	-	-	-	Speaker#1	*	*	*	*	-
-nw/test_type1/stereotype//141	0	7	his	-	-	-	-	-	Speaker#1	*	*	*	*	(1)
+nw/test_type1/stereotype//141	0	7	her	-	-	-	-	-	Speaker#1	*	*	*	*	(1)
 nw/test_type1/stereotype//141	0	8	stove	-	-	-	-	-	Speaker#1	*	*	*	*	-
 nw/test_type1/stereotype//141	0	9	was	-	-	-	-	-	Speaker#1	*	*	*	*	-
 nw/test_type1/stereotype//141	0	10	broken	-	-	-	-	-	Speaker#1	*	*	*	*	-
