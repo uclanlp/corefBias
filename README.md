@@ -5,7 +5,7 @@
 [Kai-Wei Chang](http://www.cs.virginia.edu/~kc2wc/). NAACL-2018 short paper.
 
 ### Updates:
-- Please refer to [Higher-order Coreference Resolution with Coarse-to-fine Inference](https://github.com/kentonl/e2e-coref) for the coreference resolution codes and a brief instruction [here](WinoBias/wino).
+- **Please refer to [Higher-order Coreference Resolution with Coarse-to-fine Inference](https://github.com/kentonl/e2e-coref) for the coreference resolution codes and a brief instruction [here](WinoBias/wino).**
 - To use our dataset, change the evaulation_path and conll_eval_path in [experiment.conf](https://github.com/kentonl/e2e-coref/blob/9d1ee1972f6e34eb5d1dcbb1fd9b9efdf53fc298/experiments.conf#L79) to the winobias dataset.
 
 ----
