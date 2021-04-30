@@ -6,7 +6,7 @@ name: 1
 ---
 
 
-### [Gender Bias in Coreference Resolution:Evaluation and Debiasing Methods](https://arxiv.org/abs/1804.06876) ###
+### [Gender Bias in Coreference Resolution:Evaluation and Debiasing Methods](https://arxiv.org/abs/1804.06876) [[Github](https://github.com/uclanlp/corefBias/tree/master/WinoBias/wino)] ###
 
 [Jieyu Zhao](http://jyzhao.net/), [Tianlu Wang](http://www.cs.virginia.edu/~tw8cb/), 
 [Mark Yatskar](https://homes.cs.washington.edu/~my89/), [Vicente Ordonez](http://www.cs.virginia.edu/~vicente/), 
@@ -178,6 +178,7 @@ We use the professions from the [Labor Force Statistics](https://www.bls.gov/cps
     </tr>
 </table>
 (Note: to reduce the ambigous of words, we made some modification of these professions: mechanician --> mechanic, sewer --> tailor, constructor --> construction worker, counselors --> counselor, designers --> designer, hairdressers --> hairdresser)
+The anonymized.augmented.training data can be accessed [here](https://drive.google.com/a/g.ucla.edu/file/d/14Im3BnNl-d2fYETYmiH5yq6eFGLVC3g0/view?usp=sharing).
 
 
 

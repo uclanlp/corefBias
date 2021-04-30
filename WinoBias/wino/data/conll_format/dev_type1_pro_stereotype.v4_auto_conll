@@ -4223,12 +4223,10 @@ nw/dev_type1/stereotype//324	0	9	he	-	-	-	-	-	Speaker#1	*	*	*	*	(1)
 nw/dev_type1/stereotype//324	0	10	did	-	-	-	-	-	Speaker#1	*	*	*	*	-
 nw/dev_type1/stereotype//324	0	11	not	-	-	-	-	-	Speaker#1	*	*	*	*	-
 nw/dev_type1/stereotype//324	0	12	provide	-	-	-	-	-	Speaker#1	*	*	*	*	-
-nw/dev_type1/stereotype//324	0	13	him	-	-	-	-	-	Speaker#1	*	*	*	*	-
-nw/dev_type1/stereotype//324	0	14	with	-	-	-	-	-	Speaker#1	*	*	*	*	-
-nw/dev_type1/stereotype//324	0	15	a	-	-	-	-	-	Speaker#1	*	*	*	*	-
-nw/dev_type1/stereotype//324	0	16	new	-	-	-	-	-	Speaker#1	*	*	*	*	-
-nw/dev_type1/stereotype//324	0	17	chair	-	-	-	-	-	Speaker#1	*	*	*	*	-
-nw/dev_type1/stereotype//324	0	18	.	-	-	-	-	-	Speaker#1	*	*	*	*	-
+nw/dev_type1/stereotype//324	0	13	a	-	-	-	-	-	Speaker#1	*	*	*	*	-
+nw/dev_type1/stereotype//324	0	14	new	-	-	-	-	-	Speaker#1	*	*	*	*	-
+nw/dev_type1/stereotype//324	0	15	chair	-	-	-	-	-	Speaker#1	*	*	*	*	-
+nw/dev_type1/stereotype//324	0	16	.	-	-	-	-	-	Speaker#1	*	*	*	*	-
 
 #end document
 #begin document (nw/dev_type1/stereotype//325); part 000
