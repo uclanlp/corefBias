@@ -12,3 +12,4 @@
 
 Others:
 - You do not need the anonymize.py file for our winobias dataset. The script is for anonymizing the OntoNote coref file. To use this, you need fo first generate the NER tags for the OntoNotes coref files, and then run `python anonymize.py file_with_NERs ontonotes_coref.conll outputfile`.
+- For the NER tags we use [tagger](https://github.com/glample/tagger) in our paper.
